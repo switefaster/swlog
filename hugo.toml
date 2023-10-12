@@ -1,0 +1,23 @@
+baseURL = 'https://switefaster.githu.io/blog/'
+languageCode = 'zh-cn'
+title = "Sebrarin's Daft & Draft"
+theme = "PaperMod"
+
+enableRobotsTXT = true
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[params]
+env = "production"
+description = "something that never show up"
+author = "switefaster"
+math = true
+
+[params.homeInfoParams]
+Title = "Sebrarin's Blog"
+Content = "随缘投稿"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/switefaster/"
