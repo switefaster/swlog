@@ -1,4 +1,4 @@
-baseURL = 'https://switefaster.githu.io/blog/'
+baseURL = 'https://switefaster.github.io/blog/'
 languageCode = 'zh-cn'
 title = "Sebrarin's Daft & Draft"
 theme = "PaperMod"
