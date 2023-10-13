@@ -5,6 +5,9 @@ theme = "PaperMod"
 
 enableRobotsTXT = true
 
+[taxonomies]
+tag = "tags"
+
 [markup.goldmark.renderer]
 unsafe = true
 
@@ -21,3 +24,22 @@ Content = "随缘投稿"
 [[params.socialIcons]]
 name = "github"
 url = "https://github.com/switefaster/"
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[menu]
+[[menu.main]]
+name = "Archive"
+url = "archives"
+weight = 5
+
+[[menu.main]]
+name = "Search"
+url = "search/"
+weight = 10
+
+[[menu.main]]
+name = "Tags"
+url = "tags"
+weight = 10
